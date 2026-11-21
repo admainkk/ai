@@ -1,0 +1,27 @@
+# Python 虚拟环境
+.venv/
+torch-env/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 模型文件（大文件，按需保留）
+*.keras
+*.h5
+*.weights.h5
+*.pth
+*.pt
+*.onnx
+
+# IDE / 系统
+.idea/
+.vscode/
+.DS_Store
+
+# 日志 / 数据
+*.log
+data/
